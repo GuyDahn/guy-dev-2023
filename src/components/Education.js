@@ -39,29 +39,29 @@ const Education = () => {
         <motion.div
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
-          md:w-[2px] md:left-[30px] xs:left-[20px] dark:bg-primaryDark dark:shadow-3xl"
+          md:w-[2px] md:left-[30px] xs:left-[20px] dark:shadow-3xl"
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
         <Details
-            type="Bachelor of Science in Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            type="Full-Stack Web Development - Certificate"
+            time="2019"
+            place="Elevation Academy"
+            info="Completed a bootcamp on full-stack web development, covering the latest technologies and best practices in the industry. "
           />
 
           <Details
-            type="Master of Computer Science"
-            time="2020-2022"
-            place="Stanford University"
-            info="Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding."
+            type="Various Online Courses"
+            time="2016-2023"
+            place="Udemy, Coursera, Harvard Online, and more"
+            info="Completed various online courses in topics such as Data Structures, Databases, Web Design, UX/UI, and more."
           />
 
           <Details
-            type="Online Coursework"
-            time="2016-2020"
-            place="Coursera and edX"
-            info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+            type="SEO - Certificate"
+            time="2014"
+            place="John Bryce"
+            info="Completed a course on SEO, covering the latest technologies and best practices in the industry. "
           />
         </ul>
       </div>

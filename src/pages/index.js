@@ -27,7 +27,7 @@ export default function Home () {
             <div className='w-1/2 md:w-full'>
               <Image
                 src={profilePic}
-                alt='CodeBucks'
+                alt='Guy Dev'
                 className='w-full h-auto lg:hidden md:inline-block md:w-full'
                 priority
                 sizes='(max-width: 768px) 100vw,
@@ -76,7 +76,7 @@ export default function Home () {
 
         {/* <HireMe /> */}
         {/* <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
-          <Image src={lightBulb} alt='Codebucks' className='w-full h-auto' />
+          <Image src={lightBulb} alt='Guy Dev' className='w-full h-auto' />
         </div> */}
       </main>
     </>

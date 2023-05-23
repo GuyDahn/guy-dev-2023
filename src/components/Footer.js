@@ -21,7 +21,7 @@ const Footer = () => {
             "
             target={"_blank"}
           >
-            CodeBucks
+            Guy Dev
           </Link>
         </div> */}
         {/* <Link

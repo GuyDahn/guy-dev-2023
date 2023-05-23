@@ -38,7 +38,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Guy Dev's About Page</title>
+        <title>Guy Dev&apos;s About Page</title>
         <meta
           name='description'
           content='Learn more about Guy Dev, a Full-Stack developer with a passion for 

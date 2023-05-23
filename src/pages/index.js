@@ -13,7 +13,7 @@ export default function Home () {
   return (
     <>
       <Head>
-        <title>Guy Dev's Website</title>
+        <title>Guy Dev&apos;s Website</title>
         <meta
           name='description'
           content="Explore Guy Dev's developer portfolio and 

@@ -136,7 +136,7 @@ const articles = () => {
           lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl
           "
           />
-          <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
+          {/* <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
               img={article1}
               title="build a custom pagination component in reactjs from scratch"
@@ -155,11 +155,11 @@ const articles = () => {
               user experience."
               link="https://devdreaming.com/blogs/create-3-different-types-of-loading-screens-in-react"
             />
-          </ul>
+          </ul> */}
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
-            All Articles
+            Coming Soon!
           </h2>
-          <ul className="flex flex-col items-center relative">
+          {/* <ul className="flex flex-col items-center relative">
             <Article
               title="form validation in reactjs: build a reusable custom hook for inputs and error handling"
               img={article3}
@@ -196,7 +196,7 @@ const articles = () => {
               img={article8}
               link="https://devdreaming.com/blogs/higher-order-component-hoc-react"
             />
-          </ul>
+          </ul> */}
         </Layout>
       </main>
     </>

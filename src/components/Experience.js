@@ -59,9 +59,9 @@ style={{scaleY: scrollYProgress}}
               position="Full Stack Developer"
               company=" 888 Holdings"
               companyLink="https:/888.com"
-              time="2020-2022"
-              address="Hertzelia"
-              work="Worked in a team responsible for developing inhouse tools and websites for the company, including designing and implementing a new user interfaces and developing the backend infrastructures.
+              time="2020-2023"
+              address="Hertzelia, Israel"
+              work="Worked in a team responsible for developing inhouse tools and websites for the company, including designing and implementing new blogs, user interfaces, and developing the backend infrastructures.
                
               "
             />
@@ -70,7 +70,7 @@ style={{scaleY: scrollYProgress}}
               position="Technical SEO"
               company=" eMojo"
               companyLink=""
-              time="2018-2019"
+              time="2017-2019"
               address="New York, NY."
               work="
               I was responsible for the technical SEO of the company's websites, including optimizing the websites' performance, implementing new features and fixing bugs.
@@ -81,11 +81,11 @@ style={{scaleY: scrollYProgress}}
             <Details
               position="Freelance Web Developer and SEO Expert"
               company=" Self Employed"
-              companyLink="https://amazon.com"
+              companyLink="https://guy-dev.com"
               time="2016-Ongoing"
               address="Remote"
               work="
-              I have been working as a freelance developer for the past 5 years, working with clients from all over the world, including the US, Israel, and more."
+              I have been working as a freelance developer for the past 7 years, working with clients from all over the world, including the US, Europe, Israel, and South America."
             />
         </ul>
       </div>

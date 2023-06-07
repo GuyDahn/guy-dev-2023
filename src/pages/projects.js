@@ -11,6 +11,7 @@ import project3 from '../../public/images/projects/bazelet.png'
 import project4 from '../../public/images/projects/fixtures.png'
 import project5 from '../../public/images/projects/mjarsenal.png'
 import project6 from '../../public/images/projects/blackjack.png'
+import project7 from '../../public/images/projects/datacore.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -169,30 +170,34 @@ const projects = () => {
                 github='https://vendup-production.netlify.app/dashboard/analytics'
               />
             </div>
+
             <div className='col-span-6 sm:col-span-12'>
-              <Project
-                type='eCommerce Website'
-                title='Rush Order Tees'
-                img={project2}
-                link='https://wecannco.com/cbd-website-design/'
-                github='https://github.com/GuyDahn'
-              />
-            </div>
-            <div className='col-span-6 sm:col-span-12'>
-              <Project
+              <FeaturedProject
                 type='Wordpress Website'
                 title='Bazelet Pharma'
+                summary='Bazelet Pharma is a WordPress website for a medical cannabis company. It is built with WordPress and WooCommerce.'
                 img={project3}
                 link='https://www.bazelet-pharma.co.il'
                 github='https://github.com/GuyDahn'
               />
             </div>
 
+            <div className='col-span-6 sm:col-span-12'>
+              <FeaturedProject
+                type='eCommerce Website'
+                title='Rush Order Tees'
+                summary='Rush Order Tees is an eCommerce website for a custom apparel company. It is built with next.js, Tailwind CSS, and Prismic.'
+                img={project2}
+                link='https://www.rushordertees.com'
+                github='https://github.com/GuyDahn'
+              />
+            </div>
+
             <div className='col-span-12'>
               <FeaturedProject
-                type='Wordpress Website'
+                type='Wordpress AI Magazine'
                 title='888 Fixtures'
-                summary='888 Fixtures is an AI-powered WordPress websites that automatically summarizes the latest football matches. It is built with React, Next.js, AWS, and WordPress.'
+                summary='888 Fixtures is an AI-powered WordPress websites that automatically summarizes the latest football matches. It is built with Next.js, AWS, and WordPress.'
                 img={project4}
                 link='https://888fixtures.com'
                 github='https://github.com/GuyDahn'
@@ -201,13 +206,14 @@ const projects = () => {
 
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                type='Website Template'
+                type='Website'
                 img={project5}
                 title='MJ Arsenal'
                 link='https://mjarsenal.com'
                 github='https://github.com/GuyDahn'
               />
             </div>
+
             <div className='col-span-6 sm:col-span-12'>
               <Project
                 type='React js Game'
@@ -215,6 +221,16 @@ const projects = () => {
                 title='Blackjack Game'
                 link='https://guydahn.github.io/react-blackjack/'
                 github='https://github.com/GuyDahn/react-blackjack'
+              />
+            </div>
+
+            <div className='col-span-6 sm:col-span-12'>
+              <Project
+                type='DataCore Website'
+                img={project7}
+                title='DataCore'
+                link='https://datacore.co.il'
+                github='https://github.com/GuyDahn'
               />
             </div>
           </div>

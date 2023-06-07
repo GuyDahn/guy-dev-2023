@@ -197,7 +197,7 @@ const projects = () => {
               <FeaturedProject
                 type='Wordpress AI Magazine'
                 title='888 Fixtures'
-                summary='888 Fixtures is an AI-powered WordPress websites that automatically summarizes the latest football matches. It is built with Next.js, AWS, and WordPress.'
+                summary='888 Fixtures is an AI-powered WordPress website that automatically summarizes the latest football matches. It is built with Next.js, AWS, and WordPress.'
                 img={project4}
                 link='https://888fixtures.com'
                 github='https://github.com/GuyDahn'

@@ -171,7 +171,7 @@ const projects = () => {
               />
             </div>
 
-            <div className='col-span-6 sm:col-span-12'>
+            <div className='col-span-12'>
               <FeaturedProject
                 type='Wordpress Website'
                 title='Bazelet Pharma'
@@ -182,7 +182,7 @@ const projects = () => {
               />
             </div>
 
-            <div className='col-span-6 sm:col-span-12'>
+            <div className='col-span-12'>
               <FeaturedProject
                 type='eCommerce Website'
                 title='Rush Order Tees'

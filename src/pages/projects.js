@@ -208,8 +208,8 @@ const projects = () => {
               <Project
                 type='Website'
                 img={project5}
-                title='MJ Arsenal'
-                link='https://mjarsenal.com'
+                title='FlatRate Moving'
+                link='https://flatrate.com'
                 github='https://github.com/GuyDahn'
               />
             </div>
@@ -233,6 +233,7 @@ const projects = () => {
                 github='https://github.com/GuyDahn'
               />
             </div>
+            
           </div>
         </Layout>
       </main>

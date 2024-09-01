@@ -59,7 +59,7 @@ style={{scaleY: scrollYProgress}}
               position="Full Stack Developer"
               company=" 888 Holdings"
               companyLink="https:/888.com"
-              time="2020-2023"
+              time="2020-2024"
               address="Hertzelia, Israel"
               work="Worked in a team responsible for developing inhouse tools and websites for the company, including designing and implementing new blogs, user interfaces, and developing the backend infrastructures.
                

@@ -1,5 +1,5 @@
 import AnimatedText from '@/components/AnimatedText'
-import HireMe from '@/components/HireMe'
+// import HireMe from '@/components/HireMe'
 import { LinkArrow } from '@/components/Icons'
 import Layout from '@/components/Layout'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -7,7 +7,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import profilePic from '../../public/images/profile/guy-dev-2.png'
-import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
+// import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
+import About from '@/pages/about'
+import Projects from '@/pages/projects'
 
 export default function Home () {
   return (
@@ -44,9 +46,9 @@ export default function Home () {
               />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
                 As a dedicated full-stack developer, my primary focus is
-                translating visionary ideas into tangible web applications. Take a
-                closer look at my latest projects, which exemplify my skills in
-                React.js and of web development.
+                translating visionary ideas into tangible web applications. Take
+                a closer look at my latest projects, which exemplify my skills
+                in React.js and of web development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
@@ -67,11 +69,17 @@ export default function Home () {
                   href='/projects'
                   className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'
                 >
-                 My work
+                  My work
                 </Link>
               </div>
             </div>
           </div>
+        <div className='flex flex-col items-center mt-12'>
+          <p className='text-lg font-medium'>Scroll For More</p>
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </div>
         </Layout>
 
         {/* <HireMe /> */}
@@ -79,6 +87,8 @@ export default function Home () {
           <Image src={lightBulb} alt='Guy Dev' className='w-full h-auto' />
         </div> */}
       </main>
+      <About />
+      <Projects />
     </>
   )
 }

@@ -144,18 +144,18 @@ const Project = ({ title, type, img, link, github }) => {
 const projects = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Guy Dev&apos;s Projects Page</title>
         <meta
           name='description'
           content='Explore Guy Devs projects and see what he has been working on recently.'
         />
-      </Head>
+      </Head> */}
       <TransitionEffect />
       <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText
-            text='My Recent Projects'
+            text='My Projects'
             className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
           />
 

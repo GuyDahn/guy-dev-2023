@@ -37,7 +37,7 @@ const AnimatedNumbers = ({ value }) => {
 const about = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Guy Dev&apos;s About Page</title>
         <meta
           name='description'
@@ -45,44 +45,29 @@ const about = () => {
         creating innovative solutions. Discover tips for building a developer portfolio and insights on 
         full-stack development, front-end development, and back-end development.'
         />
-      </Head>
+      </Head> */}
       <TransitionEffect />
-      <main className='flex w-full flex-col items-center justify-center dark:text-light'>
+      <main id='about' className='flex w-full flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText
-            text='Passion Fuels Purpose!'
+            text="who's guy?"
             className='mb-16 !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8 color:!primaryDark dark:!primaryLight'
           />
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
-              <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>
-                Biography
-              </h2>
-              <p className='font-medium'>
-                My name is Guy Dahan, and I am a Full-stack Developer with a
-                diverse background in SEO, web development, entrepreneurship,
-                business thinking, and team management.
+              <p className='text-2xl text-justify'>
+                I'm Guy Dahan, a Full-Stack Developer with expertise in SEO, web
+                development, entrepreneurship, and team management. With over 10
+                years of web experience, I specialize in building innovative web applications
+                and delivery end to end technical audit.
               </p>
-              <p className='my-4 font-medium'>
-                With over a decade of experience in SEO, I have honed my skills
-                in optimizing digital content to ensure maximum visibility on
-                search engines. I possess a comprehensive understanding of both
-                front-end and back-end technologies, enabling me to create
-                innovative and robust web applications.
+              <p className='mt-8 text-2xl text-justify'>
+                I've led teams of over 200 employees, showcasing my leadership
+                skills and business acumen. My entrepreneurial mindset and
+                strategic thinking drive me to find new opportunities and
+                effective solutions in the digital world.
               </p>
-              <p className='my-4 font-medium'>
-                In addition to my technical expertise, I am an entrepreneur at
-                heart, constantly seeking new opportunities and innovative
-                solutions. I have successfully managed large teams of over 200
-                employees, showcasing my ability to lead and inspire others
-                towards achieving collective goals.
-              </p>
-                My strategic thinking and business acumen allow me to identify
-                opportunities, develop effective strategies, and navigate the
-                ever-evolving digital landscape.
-              <p className='font-medium'></p>
             </div>
-
             <div
               className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
 bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8

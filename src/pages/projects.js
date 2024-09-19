@@ -14,6 +14,7 @@ import project6 from '../../public/images/projects/blackjack.png'
 import project7 from '../../public/images/projects/datacore.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
+// import HireMe from '@/components/HireMe'
 
 const FramerImage = motion(Image)
 
@@ -237,6 +238,7 @@ const projects = () => {
           </div>
         </Layout>
       </main>
+      {/* <HireMe /> */}
     </>
   )
 }

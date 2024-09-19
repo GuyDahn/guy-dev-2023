@@ -10,6 +10,7 @@ import profilePic from '../../public/images/profile/guy-dev-2.png'
 // import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
 import About from '@/pages/about'
 import Projects from '@/pages/projects'
+import Contact from '@/components/Contact'
 
 export default function Home () {
   return (
@@ -89,6 +90,7 @@ export default function Home () {
       </main>
       <About />
       <Projects />
+      <Contact />
     </>
   )
 }

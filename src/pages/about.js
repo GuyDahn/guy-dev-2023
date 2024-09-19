@@ -9,6 +9,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 import profilePic from '../../public/images/profile/guy-dev-3.png'
+// import HireMe from '@/components/HireMe'
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null)
@@ -129,6 +130,8 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
           <Education />
         </Layout>
       </main>
+      {/* <HireMe /> */}
+
     </>
   )
 }

@@ -9,6 +9,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 import profilePic from '../../public/images/profile/guy-dev-3.png'
+import { motion } from 'framer-motion';
+
 // import HireMe from '@/components/HireMe'
 
 const AnimatedNumbers = ({ value }) => {
@@ -48,7 +50,10 @@ const about = () => {
         />
       </Head> */}
       <TransitionEffect />
-      <main id='about' className='flex w-full flex-col items-center justify-center dark:text-light'>
+      <main
+        id='about'
+        className='flex w-full flex-col items-center justify-center dark:text-light'
+      >
         <Layout className='pt-16'>
           <AnimatedText
             text="who's guy?"
@@ -57,13 +62,13 @@ const about = () => {
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
               <p className='text-2xl text-justify'>
-                I'm Guy Dahan, a Full-Stack Developer with expertise in SEO, web
+                I&apos;m Guy Dahan, a Full-Stack Developer with expertise in SEO, web
                 development, entrepreneurship, and team management. With over 10
-                years of web experience, I specialize in building innovative web applications
-                and delivery end to end technical audit.
+                years of web experience, I specialize in building innovative web
+                applications and delivery end to end technical audit.
               </p>
               <p className='mt-8 text-2xl text-justify'>
-                I've led teams of over 200 employees, showcasing my leadership
+                I&apos;ve led teams of over 200 employees, showcasing my leadership
                 skills and business acumen. My entrepreneurial mindset and
                 strategic thinking drive me to find new opportunities and
                 effective solutions in the digital world.
@@ -84,6 +89,11 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
               (max-width: 1200px) 50vw,
               33vw'
               />
+              {/* <motion.div
+                className='w-full h-auto rounded-2xl bg-blue-500'
+                animate={{ scale: [1, 1.5, 1] }}
+                transition={{ duration: 2, repeat: Infinity }}
+              /> */}
             </div>
 
             <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
@@ -131,7 +141,6 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
         </Layout>
       </main>
       {/* <HireMe /> */}
-
     </>
   )
 }

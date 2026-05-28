@@ -59,7 +59,7 @@ style={{scaleY: scrollYProgress}}
               position="Full Stack Developer"
               company=" 888 Holdings"
               companyLink="https:/888.com"
-              time="2020-2024"
+              time="2020-2025"
               address="Hertzelia, Israel"
               work="Worked in a team responsible for developing inhouse tools and websites for the company, including designing and implementing new blogs, user interfaces, and developing the backend infrastructures.
                
@@ -81,11 +81,11 @@ style={{scaleY: scrollYProgress}}
             <Details
               position="Freelance Web Developer and SEO Expert"
               company=" Self Employed"
-              companyLink="https://guy-dev.com"
+              companyLink="/"
               time="2016-Ongoing"
               address="Remote"
               work="
-              I have been working as a freelance developer for the past 7 years, working with clients from all over the world, including the US, Europe, Israel, and South America."
+              I have been working as a freelance developer for the past 8 years, working with clients from all over the world, including the US, Europe, Israel, and South America."
             />
         </ul>
       </div>

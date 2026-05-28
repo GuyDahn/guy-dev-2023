@@ -12,6 +12,7 @@ import project4 from '../../public/images/projects/fixtures.png'
 import project5 from '../../public/images/projects/flatrate.png'
 import project6 from '../../public/images/projects/blackjack.png'
 import project7 from '../../public/images/projects/datacore.png'
+import project8 from '../../public/images/projects/seo-audit.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 // import HireMe from '@/components/HireMe'
@@ -234,7 +235,16 @@ const projects = () => {
                 github='https://github.com/GuyDahn'
               />
             </div>
-            
+            <div className='col-span-12'>
+              <FeaturedProject
+                type='Next.js + TypeScript Tool'
+                title='SEO Audit Tool'
+                summary='A free instant SEO analysis tool. Paste any URL and get a full report covering title tags, meta descriptions, H1s, image alt tags, Open Graph, structured data, canonical URLs and more. Built with Next.js, TypeScript, and Cheerio.'
+                img={project8}
+                link='https://seo-audit-tool-azure.vercel.app'
+                github='https://github.com/guydahn/seo-audit-tool'
+              />
+            </div>
           </div>
         </Layout>
       </main>

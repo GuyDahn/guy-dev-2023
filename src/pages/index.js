@@ -40,16 +40,13 @@ export default function Home () {
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText
-                text='Transforming Concepts into Solutions through Code and Design'
+                text='I build websites that rank'
                 className='!text-6xl !text-left 
                 xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl
                 '
               />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                As a dedicated full-stack developer, my primary focus is
-                translating visionary ideas into tangible web applications. Take
-                a closer look at my latest projects, which exemplify my skills
-                in React.js and of web development.
+              Full-stack developer and SEO strategist. I build fast, scalable web applications and make sure the right people find them.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
